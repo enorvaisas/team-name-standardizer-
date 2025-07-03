@@ -1,0 +1,62 @@
+{
+  "sport": "multi-sport",
+  "description": "This payload tests teams at varying similarity levels to test threshold adjustments",
+  "matches": [
+    {
+      "match_id": "T001",
+      "sport": "basketball",
+      "home_team": "Los Angeles Lakers",
+      "away_team": "Los Angeles Lakerz",
+      "similarity": "Very High (~90%)",
+      "comment": "One letter difference"
+    },
+    {
+      "match_id": "T002",
+      "sport": "basketball",
+      "home_team": "Boston Celtics",
+      "away_team": "Boston Celtic",
+      "similarity": "High (~85%)",
+      "comment": "Missing last letter"
+    },
+    {
+      "match_id": "T003",
+      "sport": "basketball",
+      "home_team": "Golden State Warriors",
+      "away_team": "Golden State",
+      "similarity": "Medium-High (~75%)",
+      "comment": "Missing one word"
+    },
+    {
+      "match_id": "T004",
+      "sport": "basketball",
+      "home_team": "Chicago Bulls",
+      "away_team": "Chicago Bull Team",
+      "similarity": "Medium (~65%)",
+      "comment": "Word difference plus added word"
+    },
+    {
+      "match_id": "T005",
+      "sport": "basketball",
+      "home_team": "Miami Heat",
+      "away_team": "Miami Team",
+      "similarity": "Medium-Low (~55%)",
+      "comment": "Different second word"
+    },
+    {
+      "match_id": "T006",
+      "sport": "basketball",
+      "home_team": "Brooklyn Nets",
+      "away_team": "New Brooklyn Team",
+      "similarity": "Low (~45%)",
+      "comment": "Added word, different second word"
+    },
+    {
+      "match_id": "T007",
+      "sport": "basketball",
+      "home_team": "San Antonio Spurs",
+      "away_team": "San Antonio Rockets",
+      "similarity": "Medium (~60%)",
+      "comment": "Same city, different team name"
+    }
+  ]
+} 

@@ -1,0 +1,29 @@
+{
+  "sport": "basketball",
+  "matches": [
+    {
+      "match_id": "Z001",
+      "sport": "basketball",
+      "home_team": "BC Kaunas Zalgiris",
+      "away_team": "Opponent Team 1"
+    },
+    {
+      "match_id": "Z002",
+      "sport": "basketball",
+      "home_team": "Kaunas Zalgiris",
+      "away_team": "Opponent Team 2"
+    },
+    {
+      "match_id": "Z003",
+      "sport": "basketball",
+      "home_team": "Zalgiris Kaunas",
+      "away_team": "Opponent Team 3"
+    },
+    {
+      "match_id": "Z004",
+      "sport": "basketball",
+      "home_team": "Kauno Žalgiris",
+      "away_team": "Opponent Team 4"
+    }
+  ]
+} 

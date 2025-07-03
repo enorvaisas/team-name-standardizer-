@@ -1,0 +1,93 @@
+{
+  "sport": "multi-sport",
+  "matches": [
+    {
+      "match_id": "B001",
+      "sport": "basketball",
+      "home_team": "LA Lakers",
+      "away_team": "Boston Celts",
+      "odds": {"home": 1.95, "away": 1.85},
+      "comment": "Should match 'Los Angeles Lakers' and 'Boston Celtics'"
+    },
+    {
+      "match_id": "B002",
+      "sport": "basketball",
+      "home_team": "Golden State",
+      "away_team": "Chicago",
+      "odds": {"home": 1.75, "away": 2.10},
+      "comment": "Should match 'Golden State Warriors' and 'Chicago Bulls'"
+    },
+    {
+      "match_id": "B003",
+      "sport": "basketball",
+      "home_team": "Completely New Basketball Team",
+      "away_team": "Another Fictitious Team",
+      "odds": {"home": 2.50, "away": 1.50},
+      "comment": "Both should be auto-added as new teams"
+    },
+    {
+      "match_id": "B004",
+      "sport": "basketball",
+      "home_team": "Miami Ht",
+      "away_team": "Nets Brooklyn",
+      "odds": {"home": 1.90, "away": 1.90},
+      "comment": "Testing abbreviations and word order"
+    },
+    {
+      "match_id": "S001",
+      "sport": "soccer",
+      "home_team": "Barcelona FC",
+      "away_team": "Bayern Munich",
+      "odds": {"home": 2.10, "away": 1.70},
+      "comment": "Should match 'Barcelona' and 'FC Bayern Munchen'"
+    },
+    {
+      "match_id": "S002",
+      "sport": "soccer",
+      "home_team": "Manchester UTD",
+      "away_team": "Arsenal London",
+      "odds": {"home": 1.85, "away": 1.95},
+      "comment": "Testing abbreviations and extra words"
+    },
+    {
+      "match_id": "S003",
+      "sport": "soccer",
+      "home_team": "New Soccer Team United",
+      "away_team": "Fictional Football Club",
+      "odds": {"home": 3.00, "away": 1.40},
+      "comment": "Both should be auto-added as new teams"
+    },
+    {
+      "match_id": "S004",
+      "sport": "soccer",
+      "home_team": "Zalgiris Kaunas",
+      "away_team": "AS Monaco FC",
+      "odds": {"home": 2.50, "away": 1.50},
+      "comment": "Testing similar names and prefixes/suffixes"
+    },
+    {
+      "match_id": "T001",
+      "sport": "tennis",
+      "home_team": "New Tennis Player",
+      "away_team": "Another Tennis Player",
+      "odds": {"home": 1.75, "away": 2.05},
+      "comment": "Both should be auto-added as new teams"
+    },
+    {
+      "match_id": "TH001",
+      "sport": "basketball",
+      "home_team": "L.A. Lakers",
+      "away_team": "Los Angeles Lakerz",
+      "odds": {"home": 1.90, "away": 1.90},
+      "comment": "Testing threshold boundaries with very similar names"
+    },
+    {
+      "match_id": "TH002",
+      "sport": "soccer",
+      "home_team": "Manchester City FC",
+      "away_team": "Man. United",
+      "odds": {"home": 1.80, "away": 2.00},
+      "comment": "Testing threshold boundaries with abbreviated names"
+    }
+  ]
+} 

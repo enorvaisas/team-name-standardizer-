@@ -1,0 +1,26 @@
+# Pure Python Team Name Standardizer Requirements
+# NO EXTERNAL DEPENDENCIES REQUIRED!
+# 
+# This solution uses only Python standard library modules:
+# - json (built-in)
+# - logging (built-in)
+# - re (built-in)
+# - difflib (built-in)
+# - typing (built-in since Python 3.5)
+# - collections (built-in)
+# - functools (built-in)
+# - operator (built-in)
+#
+# Perfect for environments where you want to avoid:
+# - C++ compilation issues
+# - Complex dependency management
+# - Binary compatibility problems
+# - Large package downloads
+#
+# Simply copy pure_python_solution.py to your Cloud Function!
+
+# Optional: If you want to use Google Cloud Functions framework for local testing
+# functions-framework>=3.0.0
+
+# Optional: If you want to use Google Cloud Storage (can be replaced with any storage)
+# google-cloud-storage>=2.10.0 

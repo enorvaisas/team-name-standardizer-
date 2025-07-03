@@ -1,0 +1,53 @@
+{
+  "sport": "multi-sport",
+  "matches": [
+    {
+      "match_id": "AB001",
+      "sport": "basketball",
+      "home_team": "LA Lakers",
+      "away_team": "Los Angeles Clippers",
+      "odds": {"home": 1.95, "away": 1.85},
+      "comment": "LA should match Los Angeles Lakers"
+    },
+    {
+      "match_id": "AB002",
+      "sport": "basketball",
+      "home_team": "L.A. Lakers",
+      "away_team": "Boston C's",
+      "odds": {"home": 1.90, "away": 1.90},
+      "comment": "Testing with punctuation in abbreviations"
+    },
+    {
+      "match_id": "AB003",
+      "sport": "basketball",
+      "home_team": "NY Knicks",
+      "away_team": "Brooklyn Nets",
+      "odds": {"home": 2.10, "away": 1.80},
+      "comment": "NY should match New York Knicks"
+    },
+    {
+      "match_id": "AB004",
+      "sport": "soccer",
+      "home_team": "Man Utd",
+      "away_team": "Man City",
+      "odds": {"home": 2.40, "away": 1.60},
+      "comment": "Testing common soccer team abbreviations"
+    },
+    {
+      "match_id": "AB005",
+      "sport": "basketball",
+      "home_team": "Miami Ht",
+      "away_team": "CHI Bulls",
+      "odds": {"home": 1.75, "away": 2.10},
+      "comment": "Miami Ht should match Miami Heat; CHI should match Chicago"
+    },
+    {
+      "match_id": "AB006",
+      "sport": "soccer",
+      "home_team": "Barca",
+      "away_team": "Real",
+      "odds": {"home": 1.90, "away": 1.90},
+      "comment": "Testing common team short forms"
+    }
+  ]
+} 

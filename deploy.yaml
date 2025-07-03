@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: team-standardizer-config
+data:
+  BUCKET_NAME: "your-team-data-bucket"
+  TEAMS_FILE: "teams.json"
+  LOG_LEVEL: "INFO"
+
+---
+# Cloud Function deployment using gcloud command
+# Run this command to deploy:
+# gcloud functions deploy standardize-team-names \
+#   --runtime python39 \
+#   --trigger-http \
+#   --allow-unauthenticated \
+#   --source . \
+#   --entry-point standardize_team_names \
+#   --memory 512MB \
+#   --timeout 60s \
+#   --set-env-vars BUCKET_NAME=your-team-data-bucket
+
+# For Cloud Run deployment (alternative):
+# Dockerfile needed for Cloud Run
+---
+# Dockerfile content for Cloud Run:
+# FROM python:3.9-slim
+# WORKDIR /app
+# COPY requirements.txt .
+# RUN pip install -r requirements.txt
+# COPY . .
+# CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 main:app 

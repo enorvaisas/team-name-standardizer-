@@ -165,7 +165,7 @@ def test_tfidf_solution(teams_data: List[Dict]):
         print(f"Error importing TF-IDF solution: {e}")
         print("Please install required dependencies: pip install scikit-learn numpy")
 
-def compare_solutions_performance(teams_data: List[Dict]):
+def compa<REDACTED_RESEND_API_KEY>(teams_data: List[Dict]):
     """Compare performance of different solutions"""
     print("=" * 60)
     print("PERFORMANCE COMPARISON")
@@ -316,7 +316,7 @@ def main():
     test_tfidf_solution(teams_data)
     
     # Performance comparison
-    compare_solutions_performance(teams_data)
+    compa<REDACTED_RESEND_API_KEY>(teams_data)
     
     print("\n" + "=" * 60)
     print("TESTING COMPLETE")

@@ -51,4 +51,14 @@ instance/
 
 # Miscellaneous
 .DS_Store
-Thumbs.db 
+Thumbs.db
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*firebase-adminsdk*.json
+serviceAccountKey.json
+credentials.json
+*service-key.json
+*.pem
+*.p12
